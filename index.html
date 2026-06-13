@@ -1,223 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OmniFood Landing Page</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Omnifood</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<!-- HEADER -->
 <header class="hero">
-
-<nav class="navbar">
-<div class="logo">OMNIFOOD</div>
-
-<ul class="nav-links">
+<nav>
+<div class="logo">Omnifood</div>
+<div class="menu-btn" onclick="showMenu()">☰</div>
+<ul id="menu">
 <li><a href="#food">Food Delivery</a></li>
 <li><a href="#works">How It Works</a></li>
 <li><a href="#cities">Our Cities</a></li>
 <li><a href="#signup">Sign Up</a></li>
 </ul>
 </nav>
-
-<div class="hero-content">
-<h1>GOODBYE JUNK FOOD <br> HELLO SUPER HEALTHY FOOD</h1>
-
-<div class="hero-buttons">
-<a href="#" class="btn btn-primary">I'm Hungry</a>
-<a href="#" class="btn btn-secondary">Show Me More</a>
+<div class="hero-text">
+<h1>GOODBYE JUNK FOOD<br>HELLO SUPER HEALTHY FOOD</h1>
+<div class="buttons">
+<a href="#">I'm Hungry</a>
+<a href="#">Show Me More</a>
 </div>
 </div>
-
 </header>
-
-<!-- HOW IT WORKS -->
-
 <section id="works" class="works">
-
 <h2>HOW IT WORKS</h2>
-
-<div class="works-container">
-
-<div class="phone-image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMhdMeb-vxxI9bT4a3Qrk649uZbusYGYlcSqUthYmNtA&s=10" alt="Phone">
+<div class="work-box">
+<div class="phone">
+<img src="image2.jpg" alt="">
 </div>
-
 <div class="steps">
-
 <div class="step">
-<span>1</span>
-<p>Choose the plan that best fits your needs.</p>
+<div class="number">1</div>
+<p>Choose the plan that fits your needs and sign up today.</p>
 </div>
-
 <div class="step">
-<span>2</span>
-<p>Pay for the plan and download the app.</p>
+<div class="number">2</div>
+<p>Pay for the plan and download the application.</p>
 </div>
-
 <div class="step">
-<span>3</span>
-<p>You are done, start ordering.</p>
+<div class="number">3</div>
+<p>You are done and can start ordering meals.</p>
 </div>
-
-<div class="store-buttons">
+<div class="store">
 <button>Google Play</button>
 <button>App Store</button>
 </div>
-
 </div>
-
 </div>
-
 </section>
-
-<!-- CITIES -->
-
 <section id="cities" class="cities">
-
 <h2>WE'RE CURRENTLY IN THESE CITIES</h2>
-
-<div class="city-grid">
-
-<div class="city-card">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpbn-iVnUMP8t4NPAvDXfZD3oSfG5hAjd0FLayYYvW3w&s=10">
+<div class="city-container">
+<div class="city">
+<img src="image3.jpg" alt="">
 <h3>Lisbon</h3>
 <p>800+ Happy Eaters</p>
 <p>60+ Top Chefs</p>
 <p>@omnifood_lx</p>
 </div>
-
-<div class="city-card">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOkf5z2y6iJGOv0L6kNfyIwiMzjahFnPMd-DrMyj1p8kp0DxK6D6qk6L3B&s=10">
+<div class="city">
+<img src="image4.jpg" alt="">
 <h3>London</h3>
 <p>1000+ Happy Eaters</p>
 <p>80+ Top Chefs</p>
 <p>@omnifood_london</p>
 </div>
-
-<div class="city-card">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL3LtxRqkAqGcaKELkIePDAexg5ReneOXyCXQWK2wT9w&s=10s">
+<div class="city">
+<img src="image5.jpg" alt="">
 <h3>Berlin</h3>
 <p>900+ Happy Eaters</p>
 <p>70+ Top Chefs</p>
 <p>@omnifood_berlin</p>
 </div>
-
-<div class="city-card">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwHZhdd9FBWkq48iRSkpsUT-QcVf0mqU5hv7hk1HOoqw&s=10s">
+<div class="city">
+<img src="image6.jpg" alt="">
 <h3>San Francisco</h3>
 <p>1200+ Happy Eaters</p>
 <p>100+ Top Chefs</p>
 <p>@omnifood_sf</p>
 </div>
-
 </div>
-
 </section>
-
-<!-- TESTIMONIALS -->
-
 <section class="testimonials">
-
 <div class="overlay">
-
 <h2>OUR CUSTOMERS CAN'T LIVE WITHOUT US</h2>
-
-<div class="testimonial-grid">
-
+<div class="testimonial-container">
 <div class="testimonial">
-<p>
-Omnifood is awesome! Healthy meals delivered every day.
-</p>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN1z-c7t7zKPG19RDMMoQ_LZmQcsfWEbtNqpGbiNsySA&s=10">
+<p>"Omnifood is just awesome. I never have to cook again. Healthy meals delivered right to my door."</p>
+<img src="image7.jpg" alt="">
 <h4>Alberto Duncan</h4>
 </div>
-
 <div class="testimonial">
-<p>
-The best food delivery service I have ever used.
-</p>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVCB4ivY3bI1qMgjuzNcJLv4JRWmc_Da4PLeJpCBRpLA&s=10">
+<p>"The service is fantastic and the food quality is amazing. I recommend it to everyone."</p>
+<img src="image8.jpg" alt="">
 <h4>Joana Silva</h4>
 </div>
-
 <div class="testimonial">
-<p>
-Affordable, delicious and super convenient.
-</p>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNvzwDhjV_yN7zLyt-4nLWCSk5vfIHgimMNSIEa0aLaw&s=10">
+<p>"Affordable, convenient and delicious. Omnifood has completely changed my routine."</p>
+<img src="image9.jpg" alt="">
 <h4>Milton Chapman</h4>
 </div>
-
 </div>
-
 </div>
-
 </section>
-
-<!-- PRICING -->
-
 <section class="pricing">
-
 <h2>START EATING HEALTHY TODAY</h2>
-
-<div class="pricing-grid">
-
-<div class="price-card">
+<div class="price-container">
+<div class="card">
 <h3>PREMIUM</h3>
 <h1>$399</h1>
 <p>/ month</p>
-
 <ul>
 <li>1 meal every day</li>
 <li>Order 24/7</li>
 <li>Access to newest creations</li>
 <li>Free delivery</li>
 </ul>
-
 <button>Sign Up</button>
 </div>
-
-<div class="price-card">
+<div class="card">
 <h3>PRO</h3>
 <h1>$199</h1>
 <p>/ month</p>
-
 <ul>
 <li>1 meal 10 days/month</li>
 <li>Order 24/7</li>
 <li>Access to newest creations</li>
 <li>Free delivery</li>
 </ul>
-
 <button>Sign Up</button>
 </div>
-
-<div class="price-card">
+<div class="card">
 <h3>STARTER</h3>
 <h1>$19</h1>
 <p>/ meal</p>
-
 <ul>
 <li>1 meal</li>
 <li>Order from 8am to 12pm</li>
 <li>Free delivery</li>
 </ul>
-
 <button>Sign Up</button>
 </div>
-
 </div>
-
 </section>
-
-<!-- FOOTER -->
-
 <footer id="signup">
-
 <div class="footer-links">
 <a href="#">About Us</a>
 <a href="#">Blog</a>
@@ -225,16 +155,23 @@ Affordable, delicious and super convenient.
 <a href="#">iOS App</a>
 <a href="#">Android App</a>
 </div>
-
-<div class="social-links">
+<div class="social">
 <a href="#">Facebook</a>
 <a href="#">Twitter</a>
 <a href="#">Instagram</a>
 </div>
-
 <p>© 2026 Omnifood. All Rights Reserved.</p>
-
 </footer>
-
+<script>
+function showMenu(){
+var x=document.getElementById("menu");
+if(x.className==="show"){
+x.className="";
+}
+else{
+x.className="show";
+}
+}
+</script>
 </body>
 </html>
